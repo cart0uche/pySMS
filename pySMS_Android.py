@@ -24,4 +24,4 @@ def error404(error):
 	return 'Nothing here sorry'
 
 droid = android.Android()
-run(host='192.168.1.41', port=80, reloader=True)
+run(host='192.168.1.41', port=8080, reloader=True)
